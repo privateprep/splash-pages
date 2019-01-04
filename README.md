@@ -8,14 +8,15 @@ These pages are linked to the heroku app via a gh-pages static site.
 
 If for some reason, you are having trouble with these files, you will likely be able to dig up a workable version the files on codepen here: https://codepen.io/collection/nxzbbk/
 
-## Making Changes
+## Deploying Changes
 
-To make a change to these pages:
+To adjust or otherwise make a change to any of these static pages:
 
 1. Pull down repo
 1. Commit change
-1. Push change to both master and gh-pages branch
+1. Push change master
+1. Rebase gh-pages branch over master and force push
 
-Note: changes to gh-pages can take up to a few minutes to be realized.
+Note: changes to gh-pages sites may take up to a few minutes to be realized.
 
 If you are having difficulty see more information here: https://pages.github.com/
